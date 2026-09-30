@@ -1,31 +1,78 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <title>Tan Xiao | Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tan Xiaoのポートフォリオ。業務システム開発、SAP、建設DX、LiDAR・点群処理の経験と、生成AIを活用した個人開発プロジェクトを紹介します。">
+  <meta name="theme-color" content="#071a33">
+  <title>Tan Xiao | Software Engineer &amp; DX</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
-
 <body>
-    <h1>Tan Xiao</h1>
+  <a class="skip-link" href="#main-content">本文へスキップ</a>
+  <header class="site-header" id="top"><div class="container nav-container">
+    <a class="brand" href="#home" aria-label="Tan Xiao Portfolio ホーム"><span class="brand-mark" aria-hidden="true">TX</span><span>Tan Xiao</span></a>
+    <button class="nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
+    <nav class="primary-nav" id="primary-nav" aria-label="メインナビゲーション"><a href="#home">Home</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#github">GitHub</a></nav>
+  </div></header>
+  <main id="main-content">
+    <section class="hero" id="home" aria-labelledby="hero-title"><div class="container hero-grid">
+      <div class="hero-content reveal"><p class="eyebrow">Software Engineer / DX</p><p class="hero-name">Tan Xiao</p><h1 id="hero-title"><span class="hero-title-line">技術と業務をつなぎ、</span><span class="hero-title-line">課題解決を形にする。</span></h1>
+        <div class="hero-copy"><p>業務システム開発、SAP、建設DXなど、幅広い領域でソフトウェア開発やシステム設計に携わってきました。技術的な課題だけでなく、業務背景や現場のニーズを理解し、実用的な解決策につなげることを大切にしています。</p><p>要件整理・仕様調整から設計・実装・検証まで、技術と業務の両面からプロジェクトに関わり、課題解決に取り組んでいます。</p></div>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">プロジェクトを見る</a><a class="button button-secondary" href="#experience">職務経歴を見る</a></div>
+      </div>
+      <div class="hero-visual reveal" aria-hidden="true"><div class="visual-grid"></div><div class="scan-ring scan-ring-large"></div><div class="scan-ring scan-ring-small"></div><span class="scan-point point-one"></span><span class="scan-point point-two"></span><span class="scan-point point-three"></span><div class="visual-label"><span>FOCUS</span><strong>TECH × BUSINESS</strong></div></div>
+    </div><a class="scroll-cue" href="#about" aria-label="Aboutセクションへ移動">Scroll <span aria-hidden="true">↓</span></a></section>
 
-    <h2>Software Engineer & DX</h2>
+    <section class="section" id="about" aria-labelledby="about-title"><div class="container about-grid">
+      <div class="section-heading reveal"><p class="section-index">01 / About</p><h2 id="about-title">技術と業務をつなぐ。</h2></div>
+      <div class="about-content reveal">
+        <p>中国では建設業における経営管理、事業推進、顧客対応などを経験し、来日後は大学院・研究員として三次元人体骨格データや脳波データの解析研究に携わりました。</p>
+        <p>その後、ITエンジニアとして、Androidアプリ、Windowsサーバーアプリ、振動計測・データシミュレーションアプリ、SAP S/4HANAなどの開発を経験してきました。</p>
+        <p>建設DX領域では、LiDAR点群処理や遠隔映像配信の技術検証、作業サイクル可視化システムの要件定義・設計などを経験してきました。</p>
+        <p>要件定義や仕様調整、データベース・システム間インターフェースの設計、実装、検証、改善提案など、幅広い工程を経験してきました。</p>
+        <p>また、日本語と中国語を活かした日中共同開発にも携わってきました。業務理解とソフトウェア開発の経験を活かし、現場の課題を整理し、実際に使える仕組みへつなげることを大切にしています。</p>
+        <div class="focus-list" aria-label="専門領域"><span>建設DX</span><span>業務システム</span><span>LiDAR</span><span>点群処理</span><span>SAP</span><span>PoC</span><span>日中開発連携</span></div>
+      </div>
+    </div></section>
 
-    <p>
-        Welcome to my personal website.
-    </p>
+    <section class="section section-tinted" id="experience" aria-labelledby="experience-title"><div class="container experience-layout">
+      <div class="section-heading reveal"><p class="section-index">02 / Experience</p><h2 id="experience-title">Professional<br>Experience</h2><p>業務と技術の両面から積み重ねてきた経験</p></div>
+      <ol class="timeline" aria-label="職務経歴">
+        <li class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><p class="timeline-period">2024.12 – Present</p><h3>Software Engineer / SE</h3><p class="timeline-role">Construction DX / System Development</p><p>建設DX関連システムを中心に、要件定義・設計・PoC・システム開発に従事。</p><ul class="tag-list"><li>C#</li><li>Python</li><li>MySQL</li><li>LiDAR</li><li>WebRTC</li></ul></li>
+        <li class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><p class="timeline-period">2024.04 – 2024.08</p><h3>SAP S/4HANA Development</h3><p>製造業向けSAP S/4HANA導入支援。SD/MM領域のアドオン開発・改修、I/F改修、不具合調査、テストを担当。</p><ul class="tag-list"><li>SAP S/4HANA</li><li>SD</li><li>MM</li><li>ABAP</li></ul></li>
+        <li class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><p class="timeline-period">2022.05 – 2024.01</p><h3>Software Engineer / Programmer</h3><p>Windowsサーバーアプリ、振動計測アプリ、データシミュレーションGUI、Androidアプリなどの開発を経験。</p><ul class="tag-list"><li>C#</li><li>Python</li><li>C++</li><li>Java</li></ul></li>
+        <li class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><p class="timeline-period">2021.04 – 2022.04</p><h3>Researcher</h3><p class="timeline-role">Kwansei Gakuin University</p><p>三次元人体骨格データおよび脳波データを用いた運動学習に関する解析研究に従事。</p></li>
+        <li class="timeline-item reveal"><div class="timeline-marker" aria-hidden="true"></div><p class="timeline-period">2011.07 – 2015.07</p><h3>Business / Project Management</h3><p class="timeline-role">Construction Industry, China</p><p>中国の建設業界において、事業推進、顧客折衝、市場調査、入札・契約管理、関係者調整などを経験。</p></li>
+      </ol>
+    </div></section>
 
-    <h2>About Me</h2>
+    <section class="section" id="projects" aria-labelledby="projects-title"><div class="container">
+      <div class="section-heading section-heading-row reveal"><div><p class="section-index">03 / Projects</p><h2 id="projects-title">Featured Projects</h2></div><p>主なプロジェクト・取り組み事例</p></div>
+      <p class="project-disclaimer reveal">※ 掲載している図版は、各プロジェクトの内容を説明するための概念図であり、実際のシステム画面や構成を示すものではありません。</p>
+      <div class="project-grid featured-project-grid">
+        <article class="project-card reveal"><div class="project-placeholder placeholder-lidar" role="img" aria-label="LiDAR、点群、認識処理の概念図"><span class="project-number">01</span><div class="concept-lidar" aria-hidden="true"><div class="concept-source">LiDAR</div><div class="concept-cloud"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="concept-result">RECOGNITION</div></div></div><div class="project-body"><p class="project-category">LiDAR / PoC Development</p><h3>LiDAR点群識別システム</h3><p class="project-description">建設分野におけるLiDAR点群データを活用したターゲット認識技術のPoC開発。</p><p class="project-description">点群データの取得、認識処理、可視化ツールの開発および技術検証などを担当しました。</p><ul class="tag-list"><li>C#</li><li>Python</li><li>LiDAR</li><li>Point Cloud</li></ul></div></article>
+        <article class="project-card reveal"><div class="project-placeholder placeholder-ai" role="img" aria-label="文書レビューと生成AI処理の概念図"><span class="project-number">02</span><div class="concept-review" aria-hidden="true"><div class="mock-document"><span></span><span></span><span></span><span></span></div><div class="review-engine"><b>AI</b><span>REVIEW</span></div><div class="review-result"><i></i><i></i><i></i></div></div></div><div class="project-body"><p class="project-category">Personal Project / Independent Development</p><h3>生成AIを活用した設計書レビュー支援システム</h3><p class="project-description">設計書レビュー業務の効率化とレビュー品質の向上を目的に、生成AIを活用したレビュー支援システムを自主開発。</p><p class="project-description">Python・FastAPIによるバックエンド、OpenAI APIを活用したレビュー機能、Next.jsによる結果表示画面、プロンプト設計・評価などを実装・検証しました。</p><p class="project-note">※ 個人で企画・開発したプロジェクトであり、所属企業の業務・成果物とは関係ありません。</p><ul class="tag-list"><li>Python</li><li>FastAPI</li><li>Next.js</li><li>OpenAI API</li><li>LLM</li></ul></div></article>
+        <article class="project-card reveal"><div class="project-placeholder placeholder-system" role="img" aria-label="作業記録、時間集計、可視化の概念図"><span class="project-number">03</span><div class="concept-system" aria-hidden="true"><div class="system-node flow-record">作業記録</div><div class="system-node flow-summary">時間集計</div><div class="system-node flow-visual">可視化</div></div></div><div class="project-body"><p class="project-category">Construction DX / System Design</p><p class="project-stage">Requirements &amp; Design</p><h3>建設向け作業サイクル可視化システム</h3><p class="project-description">建設現場の作業記録・可視化を目的としたシステム構築に向けたプロジェクト。</p><p class="project-description">業務要件の整理、データ構造および画面仕様の検討など、要件定義・設計工程を担当。</p></div></article>
+      </div>
+    </div></section>
 
-    <p>
-        建設DX・システム開発・LiDAR技術に
-        取り組んでいます。
-    </p>
+    <section class="section section-tinted other-projects" aria-labelledby="other-projects-title"><div class="container">
+      <div class="section-heading section-heading-row reveal"><div><p class="section-index">04 / Projects</p><h2 id="other-projects-title">Other Projects</h2></div><p>業務システム・エンタープライズ・映像配信</p></div>
+      <div class="other-project-grid">
+        <article class="other-project-card reveal"><p class="project-number">04</p><p class="project-category">System Development</p><h3>設備データ収集・管理システム</h3><p>設備データの収集・管理を目的とした業務システムの開発。</p><p>要件整理、システム設計、アプリケーション開発および日中開発チームとの仕様調整などを担当しました。</p><ul class="tag-list"><li>C#</li><li>.NET</li><li>System Development</li></ul></article>
+        <article class="other-project-card reveal"><p class="project-number">05</p><p class="project-category">Enterprise Systems</p><h3>SAP S/4HANA導入支援</h3><p>製造業向けSAP S/4HANAのSD/MM領域において、ABAPによるアドオン機能の開発・改修、I/F改修、不具合調査、テスト、運用保守を担当。</p><ul class="tag-list"><li>SAP S/4HANA</li><li>SD</li><li>MM</li><li>ABAP</li></ul></article>
+        <article class="other-project-card reveal"><p class="project-number">06</p><p class="project-category">Video Streaming / Construction DX</p><h3>遠隔映像監視・配信システム</h3><p>建設現場向けの遠隔映像監視・配信システムの設計・構築。</p><p>映像配信機能の設計、低遅延配信の技術検証、複数カメラの同時配信・視聴検証などを担当しました。</p><ul class="tag-list"><li>Video Streaming</li><li>System Development</li></ul></article>
+      </div>
+    </div></section>
 
-    <h2>Projects</h2>
+    <section class="section" id="skills" aria-labelledby="skills-title"><div class="container skills-layout"><div class="section-heading reveal"><p class="section-index">05 / Skills</p><h2 id="skills-title">Skills &amp; Technologies</h2><p>開発・データ・DX・業務システムを横断する技術領域</p></div><div class="skills-grid">
+      <article class="skill-group reveal"><span class="skill-icon" aria-hidden="true">01</span><h3>Software Development</h3><p>C# / Python / C++ / Java / ABAP / JavaScript / TypeScript</p></article><article class="skill-group reveal"><span class="skill-icon" aria-hidden="true">02</span><h3>Web &amp; Backend</h3><p>.NET / FastAPI / Next.js</p></article><article class="skill-group reveal"><span class="skill-icon" aria-hidden="true">03</span><h3>Data &amp; Database</h3><p>MySQL / SQL Server / PostgreSQL / SQLite / NumPy / Pandas</p></article><article class="skill-group reveal"><span class="skill-icon" aria-hidden="true">04</span><h3>DX &amp; Sensing</h3><p>LiDAR / Livox SDK / Point Cloud / OpenCV</p></article><article class="skill-group reveal"><span class="skill-icon" aria-hidden="true">05</span><h3>Enterprise Systems</h3><p>SAP S/4HANA / SD / MM / ABAP</p></article><article class="skill-group reveal"><span class="skill-icon" aria-hidden="true">06</span><h3>AI &amp; Project</h3><p>OpenAI API / LLM / Prompt Engineering / 要件定義 / PoC / 日中開発連携</p></article>
+    </div></div></section>
 
-    <p>Coming soon...</p>
+    <section class="contact section" id="github" aria-labelledby="github-title"><div class="container contact-inner reveal"><p class="section-index">06 / GitHub</p><h2 id="github-title">Explore my GitHub.</h2><p>本ポートフォリオサイトのソースコードや、公開可能な制作物をご覧いただけます。</p><a class="button button-light" href="https://github.com/tanxiao-dev" target="_blank" rel="noopener noreferrer">GitHub Profile <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><p>© <span id="current-year">2026</span> Tan Xiao</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
 </body>
 </html>
